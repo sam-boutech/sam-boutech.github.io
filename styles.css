@@ -39,10 +39,33 @@ body {
     align-items: center;
 }
 
+.nav-logo {
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.logo-img {
+    height: 40px;
+    width: auto;
+    transition: opacity 0.3s ease;
+    margin-right: 0.75rem;
+}
+
+.logo-img:hover {
+    opacity: 0.8;
+}
+
 .nav-logo h2 {
     color: #2563eb;
     font-weight: 700;
     font-size: 1.5rem;
+    margin: 0;
 }
 
 .nav-menu {
@@ -176,6 +199,10 @@ body {
 
 .tech-icons i:nth-child(4) {
     animation-delay: 1.5s;
+}
+
+.tech-icons i:nth-child(5) {
+    animation-delay: 2s;
 }
 
 @keyframes float {
